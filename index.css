@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  flex-wrap: wrap;
+  color: white;
+}
+
+#hero {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 300px;
+  background-color: #1f2937;
+  flex-wrap: wrap;
+}
+
+#hero-text {
+  max-width: 30%;
+  color: white;
+}
+
+#hero-text h1,
+p,
+button {
+  margin-top: 20px;
+}
+
+#hero-text p {
+  color: #e5e7eb;
+}
+
+#hero-text button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+}
+
+#information {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#information-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#information-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.information-item {
+  width: 15%;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.information-item p {
+  width: 80%;
+  text-align: center;
+}
+
+.box {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 150px;
+  max-height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 100px;
+  align-items: center;
+}
+
+.nav-link {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+#quote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  min-height: 300px;
+}
+
+#quote #quote-content {
+  width: 50%;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+#quote #quote-by {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+#contact-me {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-me #contact-me-border {
+  width: 60%;
+  background-color: #3882f6;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  min-height: 150px;
+  color: white;
+}
+
+#contact-me-button button {
+  color: white;
+  border-radius: 10px;
+  background-color: inherit;
+  border: 1px solid white;
+  padding: 20px 40px;
+}
+
+#footer {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+}
